@@ -1,6 +1,4 @@
 from django.shortcuts import render,render_to_response,redirect
-import simplejson
-import time
 import Crypto.Hash.SHA256 as SHA256
 from django.urls import reverse
 def index(request):

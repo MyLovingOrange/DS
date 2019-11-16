@@ -1,5 +1,5 @@
 from django.shortcuts import render,render_to_response,redirect
-import crypto.Hash.SHA256 as SHA256
+import Crypto.Hash.SHA256 as SHA256
 from django.urls import reverse
 def index(request):
     return render(request,'index.html')

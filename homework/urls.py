@@ -21,7 +21,8 @@ from user.views import toSHA256
 
 
 urlpatterns = [
-    url(r'admin/', admin.site.urls),
-    url(r'index/$', index),
-    url(r'toSHA256/$', toSHA256),
+    url(r'^admin/', admin.site.urls),
+    url(r'^index/$', index),
+    url(r'^toSHA256/$', toSHA256),
+	url(r'^$',index),
 ]
